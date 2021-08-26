@@ -2,6 +2,10 @@
   margin-left: 5px;
 }
 
+ion-title{
+  text-align: center;
+}
+
 h3{
   font-size: 18px;
   font-weight: bold;
@@ -21,12 +25,13 @@ h3{
 }
 
 .nota-filme{
-  color: #ff0000;
-  border: 2px solid #ff0000;
-  height: 60px;
-  width: 60px;
-  text-align: center;
-}
+  border:solid;
+  border-radius: 35px;
+  height:70px;
+  width:70px;
+  font-weight: bold;
+  font-size: 18px;
+ }
 
 ion-item{
   margin-top: 5px;
