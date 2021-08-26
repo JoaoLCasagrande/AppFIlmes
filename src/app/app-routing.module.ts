@@ -19,12 +19,12 @@ const routes: Routes = [
     loadChildren: () => import('./filmes/hotel-transilvania/hotel-transilvania.module').then( m => m.HotelTransilvaniaPageModule)
   },
   {
-    path: 'abraham-lincoln',
-    loadChildren: () => import('./filmes/abraham-lincoln/abraham-lincoln.module').then( m => m.AbrahamLincolnPageModule)
-  },
-  {
     path: 'gente-grande',
     loadChildren: () => import('./filmes/gente-grande/gente-grande.module').then( m => m.GenteGrandePageModule)
+  },
+  {
+    path: 'invocacao',
+    loadChildren: () => import('./filmes/invocacao/invocacao.module').then( m => m.InvocacaoPageModule)
   }
 ];
 @NgModule({

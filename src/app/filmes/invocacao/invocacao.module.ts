@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AbrahamLincolnPageRoutingModule } from './abraham-lincoln-routing.module';
+import { InvocacaoPageRoutingModule } from './invocacao-routing.module';
 
-import { AbrahamLincolnPage } from './abraham-lincoln.page';
+import { InvocacaoPage } from './invocacao.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AbrahamLincolnPageRoutingModule
+    InvocacaoPageRoutingModule
   ],
-  declarations: [AbrahamLincolnPage]
+  declarations: [InvocacaoPage]
 })
-export class AbrahamLincolnPageModule {}
+export class InvocacaoPageModule {}
